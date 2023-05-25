@@ -1,0 +1,42 @@
+.size-selector {
+    margin-top: 20px;
+  }
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .size-button {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    width: 33px;
+    height: 33px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .size-button:hover {
+    background-color: #f7f2d1;
+    color: #333;
+  }
+  
+  .size-button.selected {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
